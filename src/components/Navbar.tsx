@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Flights, HomeIcon, Calendar, Map, Train, Bus, MapPin } from 'lucide-react';
+import { Plane, HomeIcon, Calendar, Map, Train, Bus, MapPin } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Main Navigation */}
         <nav className="flex justify-center">
           <ul className="flex overflow-x-auto pb-1 px-4">
-            <NavItem icon={<Flights size={20} />} label="Flights" />
+            <NavItem icon={<Plane size={20} />} label="Flights" />
             <NavItem icon={<HomeIcon size={20} />} label="Hotels" />
             <NavItem icon={<HomeIcon size={20} />} label="Homestays & Villas" active />
             <NavItem icon={<Calendar size={20} />} label="Holiday Packages" />
